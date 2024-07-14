@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav-links{
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #1D232C;
+
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+    color: #1D232C;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 10px;
+
+}
+
+.head-button{
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: #1D232C;
+     margin-top: 10px;
+     color: white;
+     cursor: pointer;
+}
+
+.service{
+    padding:20px;
+}
+
+.service-cont-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-cont-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-cont-2 div{
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.text{
+    padding-top: 20%;
+}
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.collections-cont{
+    position: relative;
+    flex-basis: 20%;
+    padding: 20px;
+}
+
+ .collections button{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    color: #1D232C;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+ }
+
+ .about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+ }
+
+ .contact {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.contact p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.icon {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.icon i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+}
